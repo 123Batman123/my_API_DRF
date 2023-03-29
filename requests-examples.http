@@ -31,9 +31,10 @@ Authorization: Token c1d0d583ea744247358e141dd647d53633d3c6a9
 
 ###
 
-# фильтрация по создателю
-GET {{baseUrl}}/advertisements/?creator=31
+# фильтрация по создателю и статусу
+GET {{baseUrl}}/advertisements/?creator=2&status=OPEN
 Content-Type: application/json
+
 
 ###
 
